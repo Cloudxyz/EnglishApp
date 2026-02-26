@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "LevelUp English",
+    "slug": "levelup-english",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#5C5CE0"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "backgroundColor": "#5C5CE0"
+    },
+    "plugins": [
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "LevelUp English needs microphone access for shadowing and speaking exercises."
+        }
+      ],
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "LevelUp English needs microphone access to evaluate your pronunciation.",
+          "speechRecognitionPermission": "LevelUp English uses speech recognition to score your pronunciation."
+        }
+      ],
+      "expo-font"
+    ]
+  }
+}
